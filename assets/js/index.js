@@ -12,6 +12,7 @@ $("#update_user").submit(function(event) {
         data[n['name']] = n['value']
     })
 
+    
 
     var request = {
         "url": `http://localhost:3000/api/users/${data.id}`,
